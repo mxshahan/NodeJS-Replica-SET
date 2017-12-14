@@ -1,0 +1,30 @@
+{
+  "name": "replica",
+  "version": "1.0.0",
+  "description": "NodeJS Replica Set with Express JS and MongoDB Database",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahan953/NodeJS-Replica-SET.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Replica",
+    "npm",
+    "MongoDB"
+  ],
+  "author": "Misbauddin Chowdhury",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shahan953/NodeJS-Replica-SET/issues"
+  },
+  "homepage": "https://github.com/shahan953/NodeJS-Replica-SET#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "nodemon": "^1.12.7"
+  }
+}
