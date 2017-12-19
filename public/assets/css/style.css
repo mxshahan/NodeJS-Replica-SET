@@ -1,0 +1,44 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+html, body{
+    background-color: #111;
+}
+
+.overlay{
+    background-color:rgba(0, 0, 0, 0.5);
+    height: 100%;
+}
+
+header{
+    background: url('../img/bg.jpg');
+    background-size:100% auto;
+    height: 300px;
+    fill-opacity: 0.3
+}
+
+form{
+    margin-bottom:20px;
+    overflow: hidden;
+}
+
+form input[type=text]{
+    width: 88%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.content-box{
+    background-color:#333;
+    margin-top:200px;
+    min-height: 300px;
+}
+
+.content-box ul{list-style: none;}
+.content-box ul li{padding:10px 5px; display: block;background-color:#efefef;}
+.content-box ul li:nth-child(odd){background-color:#fff;}
+.content-box ul li a{font-size:16px;}
+.content-box ul li a:hover{text-decoration:line-through}

@@ -1,1 +1,1 @@
-var db = require();
+var db = require('mongoose');

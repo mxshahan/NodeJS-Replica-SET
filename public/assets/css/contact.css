@@ -1,0 +1,27 @@
+#contact{
+	background: url('../img/contact-bg.jpg') fixed center center;
+	background-color:#ccc;
+	background-size: 100% 100%;
+	padding:0px;
+}
+
+#contact-bg{
+	background-color: rgba(0, 3, 4, 0.7);
+	padding-top:30px;
+	padding-bottom: 30px;	
+	overflow: hidden;
+}
+
+#contact input{
+	height: 50px;
+}
+#contact textarea{
+	height: 190px;
+}
+#contact input, #contact textarea, 
+#contact input:visited, #contact textarea:visited {
+	font-size: 20px;
+	color: #66afe9;
+	background: none;
+	border: 1px solid #66afe9;
+}
