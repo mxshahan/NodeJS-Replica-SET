@@ -1,7 +1,10 @@
 <html>
-  <head></head>
-  <link href="./assets/bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
-  <link href="./assets/css/style.css" type="text/css" rel="stylesheet"/>
+  <head>    
+    <title>Node-Replica</title>
+    <link href="./assets/bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+    <link href="./assets/css/style.css" type="text/css" rel="stylesheet"/>
+    <script src="./assets/js/jquery-1.11.3.min.js"></script>
+  </head>
   <body>
     <div class="main">
       <header>
@@ -14,15 +17,14 @@
                       <h3 class="">Todo Application With NodeJS Replica Concept</h3>
                     </div>
                     <div class="panel-body">
-                      <form action="" class="form-group">
+                      <form action="" class="form-group" action="/" method="POST">
                         <input type="text" name="text" class="pull-left" width="100%">
                         <input type="submit" name="add" value="Add" class="btn btn-primary pull-right">
                       </form>
                       <ul>
-                        <li><a href="#">This entry is for the Promise constructor</a></li>
-                        <li><a href="#">A function that is passed with the arguments</a></li>
-                        <li><a href="#">A pending promise can either be fulfilled with a value</a></li>
-                        <li><a href="#">the handler will be called, so there is no race</a></li>
+                        <%for(var i=0;i<msg.length;i++){%>
+                          <li><a href="#"><%= msg[i].item %></a></li>
+                        <%}%>
                       </ul>
                     </div>
                   </div>
@@ -32,6 +34,7 @@
           <div>
         </header>
     </div>
+    <script src="./assets/todo.js"></script>
     <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>
