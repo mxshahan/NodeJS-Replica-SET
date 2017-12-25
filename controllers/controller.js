@@ -1,7 +1,8 @@
 var bodyParser = require('body-parser');
 var data = [{item: 'Hello'}, {item: 'Demo Text'}, {item: 'ABCD'}];
 var urlencodeParser = bodyParser.urlencoded({extended: false});
-var db = require('../config/db.js');
+var db = require('../config/db');
+var con = db.config()
 
 
 var controller = function(app){

@@ -1,10 +1,10 @@
 var express = require('express');
 var app = express();
 var port = 3000;
-//calling contrallers
+//Calling Controllers
 var controllers = require('./controllers/controller');
 
-app.set('view engine', 'ejs')
+app.set('view engine', 'ejs');
 app.use(express.static('./public'));
 
 //Fire Controller 
